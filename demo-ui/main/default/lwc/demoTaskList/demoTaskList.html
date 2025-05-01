@@ -1,0 +1,17 @@
+<!--
+  @description       : 
+  @author            : Sangram Keshari Upadhyaya
+  @group             : 
+  @last modified on  : 26-04-2025
+  @last modified by  : Sangram Keshari Upadhyaya
+  Modifications Log
+  Ver   Date         Author                      Modification
+  1.0   26-04-2025   Sangram Keshari Upadhyaya   Initial Version
+-->
+<template>
+    <lightning-card title="Demo Task List">
+        <template for:each={tasks} for:item="task">
+            <p key={task.Id}>{task.Name} — {task.Demo_Status__c}</p>
+        </template>
+    </lightning-card>
+</template>

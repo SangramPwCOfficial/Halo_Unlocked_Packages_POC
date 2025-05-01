@@ -1,0 +1,73 @@
+{
+  "packageDirectories": [
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "demo-core",
+      "default": false,
+      "package": "Demo-Core",
+      "versionDescription": ""
+    },
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "demo-automations",
+      "default": true,
+      "package": "Demo-Automation",
+      "versionDescription": "This is an automation package",
+      "dependencies": [
+        {
+          "package": "Demo-Core",
+          "versionNumber": "0.1.0.LATEST"
+        }
+      ]
+    },
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "demo-ui",
+      "default": false,
+      "package": "Demo-UI",
+      "versionDescription": "This is a package where all UI related components are present",
+      "dependencies": [
+        {
+          "package": "Demo-Core",
+          "versionNumber": "0.1.0.LATEST"
+        }
+      ]
+    },
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "demo-app",
+      "default": false,
+      "package": "Demo-App",
+      "versionDescription": "This is a package of the complete Demo Salesforce App",
+      "dependencies": [
+        {
+          "package": "Demo-Core",
+          "versionNumber": "0.1.0.LATEST"
+        },
+        {
+          "package": "Demo-Automations",
+          "versionNumber": "0.1.0.LATEST"
+        },
+        {
+          "package": "Demo-UI",
+          "versionNumber": "0.1.0.LATEST"
+        }
+      ]
+    }
+  ],
+  "name": "Demo-Unlocked-Pkgs-v1",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "63.0",
+  "packageAliases": {
+    "Demo-Core": "0HogL00000007pVSAQ",
+    "Demo-Automation": "0HogL00000007hRSAQ",
+    "Demo-UI": "0HogL00000007j3SAA",
+    "Demo-App": "0HogL00000007kfSAA",
+    "Demo-Core@0.1.0-4": "04tgL0000001I1JQAU"
+  }
+}
