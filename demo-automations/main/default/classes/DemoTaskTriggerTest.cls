@@ -1,3 +1,13 @@
+/**
+ * @description       : 
+ * @author            : Sangram Keshari Upadhyaya
+ * @group             : 
+ * @last modified on  : 01-05-2025
+ * @last modified by  : Sangram Keshari Upadhyaya
+ * Modifications Log
+ * Ver   Date         Author                      Modification
+ * 1.0   01-05-2025   Sangram Keshari Upadhyaya   Initial Version
+**/
 @isTest
 private class DemoTaskTriggerTest {
 
@@ -38,12 +48,12 @@ private class DemoTaskTriggerTest {
         insert task;
 
         // Update task to simulate update event
-        task.Demo_Status__c = 'Completed';
+        task.Demo_Status__c = 'Done';
         update task;
 
         // Assert updated status (no change logic now but triggers the update handler path)
         Demo_Task__c updatedTask = [SELECT Id, Demo_Status__c FROM Demo_Task__c WHERE Id = :task.Id];
 
-        System.assertEquals('Completed', updatedTask.Demo_Status__c);
+        System.assertEquals('Done', updatedTask.Demo_Status__c);
     }
 }
