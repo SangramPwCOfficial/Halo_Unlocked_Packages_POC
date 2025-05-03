@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>DemoProjectManager_AutomationAccess</members>
-		<members>DemoTaskAssignee_AutomationAccess</members>
-		<name>PermissionSet</name>
+		<members>image_9</members>
+		<name>ContentAsset</name>
+	</types>
+	<types>
+		<members>DemoReport</members>
+		<name>ReportFolder</name>
+	</types>
+	<types>
+		<members>DemoDashboardFolder</members>
+		<name>DashboardFolder</name>
+	</types>
+	<types>
+		<members>DemoDashboardFolder/pTqfDMtGNNHEqmuOTArpzOIXTxrrDH</members>
+		<name>Dashboard</name>
+	</types>
+	<types>
+		<members>DemoReport/Milestones_Funnel_rLC</members>
+		<members>DemoReport/Open_Issues_Ag2</members>
+		<members>DemoReport/Open_Issues_by_Priority_HX6</members>
+		<members>DemoReport/Opportunities_Over_Time_PDN</members>
+		<members>DemoReport/Tasks_by_Stage_dqW</members>
+		<name>Report</name>
 	</types>
 	<version>63.0</version>
 </Package>

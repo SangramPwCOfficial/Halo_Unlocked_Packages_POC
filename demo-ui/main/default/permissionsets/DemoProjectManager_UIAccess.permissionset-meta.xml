@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <classAccesses>
-        <apexClass>DemoTaskHelper</apexClass>
+        <apexClass>DemoTaskController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>DemoTaskTriggerHandler</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>DemoTaskTriggerTest</apexClass>
+        <apexClass>DemoTaskControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>DemoProjectManager_AutomationAccess</label>
+    <label>DemoProjectManager_UIAccess</label>
 </PermissionSet>
