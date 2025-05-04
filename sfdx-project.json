@@ -12,7 +12,7 @@
       "versionName": "ver 0.1",
       "versionNumber": "0.1.0.NEXT",
       "path": "demo-automations",
-      "default": true,
+      "default": false,
       "package": "Demo-Automation",
       "versionDescription": "This is an automation package",
       "dependencies": [
@@ -35,6 +35,10 @@
           "versionNumber": "0.1.0.LATEST"
         }
       ]
+    },
+    {
+      "path": "demo-integration",
+      "default": true
     },
     {
       "versionName": "ver 0.1",

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>DemoProjectManager_AutomationAccess</members>
-		<members>DemoTaskAssignee_AutomationAccess</members>
-		<name>PermissionSet</name>
+		<members>Demo_UseSpoonacularAPI</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>Spoonacular_API</members>
+		<name>RemoteSiteSetting</name>
 	</types>
 	<version>63.0</version>
 </Package>
